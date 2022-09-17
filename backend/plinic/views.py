@@ -22,6 +22,7 @@ from .serializers import PostSerializer
 
 from datetime import timedelta
 
+#유저 아이디를 포스트맨으로는 받아올수없기때문에 작성됨.
 PlaylistUser = list(Profile.objects.filter(id = 1))
 global profile_id
 profile_id = PlaylistUser[0]
